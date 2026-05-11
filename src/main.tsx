@@ -10,7 +10,7 @@ import { CartProvider } from "./CartContext";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/patineto-anacleto-web">
       <CartProvider>
         <Routes>
           <Route path="/" element={<App />} />
