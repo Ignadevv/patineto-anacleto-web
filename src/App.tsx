@@ -52,7 +52,7 @@ const services = [
 
 function ScooterMark() {
   return (
-    <img src="/images/logo.png" alt="Patineto Anacleto Logo" className="h-10 object-contain" />
+    <img src="images/logo.png" alt="Patineto Anacleto Logo" className="h-10 object-contain" />
   );
 }
 
@@ -100,7 +100,7 @@ export default function App() {
     <main className="min-h-screen bg-[#f6f8f4] text-zinc-950">
       <section className="relative min-h-screen overflow-hidden bg-black text-white">
         <img
-          src="/images/portada.png"
+          src="images/portada.png"
           alt="Venta de patinetes electricos y scooters"
           className="absolute inset-0 h-full w-full animate-slow-zoom object-cover opacity-70"
         />
